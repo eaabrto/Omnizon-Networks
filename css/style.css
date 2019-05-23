@@ -348,6 +348,55 @@ ul{
     display: none;
 }
 
+/* Sign in page */
+
+/* form text */
+.form-text{
+   text-align: center;
+    color: #00aeef;
+}
+
+.form-text1{
+   text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+/* input text */
+.sign-input{
+    margin: 4% 0 0 0;
+    
+}
+
+.sign-input1{
+    margin: 0 0 10% 0;
+    width: 10%;
+    height: 20px;
+}
+
+/* border 1 */
+.border{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 3%;
+    margin: 10% 0 10% 0; 
+}
+
+/* border 2 */
+.border1{
+    border-style: solid;
+    border-width: thin;
+    border-radius: 5%;
+    margin-bottom: 10%;
+    padding: 5% 0 5% 0;
+    background-color: #ECFAFF;
+}
+
+/* sign in button */
+.signin-button{
+    margin-bottom: 10%;
+}
+
 
 /* ---------768px  The tablet breaking point -------- */
 
@@ -712,6 +761,37 @@ input {
          padding: 0 7% 0 0;
     }
     
+    /* Sign in page */
+
+    .sign-h1{
+        margin: 8% 0 0 0;
+    }    
+    
+/* form text */
+.form-text{
+   text-align: left;
+    padding-left: 5%;
+}
+
+/* input text */
+.sign-input{
+    width: 80%;
+}
+
+.sign-input1{
+    margin: 2% 0 8% 0;
+}
+
+/* border 1 */
+.border{
+    border-radius: 5%;
+    margin: 8% 12% 6% 12%; 
+}
+
+/* sign in button */
+.signin-button{
+    margin: 0 0 8% 0;
+}
     
 }
 
@@ -871,5 +951,42 @@ input {
     .about-s2{
         margin: 0 0 0 12%;
     }
+    
+        /* Sign in page */
+
+    .sign-h1{
+        margin: 5% 0 0 0;
+    }    
+    
+/* form text */
+.form-text{
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 1.1em;
+}
+
+/* input text */
+.sign-input{
+    width: 90%;
+}
+
+.sign-input1{
+    margin: 5% 0 8% 0;
+}
+
+/* border 1 */
+.border{
+    border-radius: 5%;
+    margin: 5% 20% 4% 20%; 
+}
+
+    .border1{
+        border-radius: 3%;
+    }    
+
+/* sign in button */
+.signin-button{
+    margin: 0 0 5% 0;
+}
     
 }
